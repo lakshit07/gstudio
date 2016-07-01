@@ -323,6 +323,8 @@ def event_detail(request, group_id, app_id=None, app_set_id=None, app_set_instan
     
     SALT = '8cd8ef52e8e101574e400365b55e11a6'
     URL = 'http://test-install.blindsidenetworks.com/bigbluebutton/'
+    # SALT = '8e5018ee58116b9ebed38a80260f5bcb'
+    # URL = 'http://192.168.201.108/bigbluebutton/'
     createMeeting(node.name, node._id, 'welcome', 'mPW', 'aPW', SALT , URL, '#')
     
     if is_moderator:
